@@ -4,7 +4,7 @@ function sucesso () {
         text: "Realize o login para continuar",
         icon: "success"
     }).then(() => {
-        window.location.href = "login.html";
+        window.location.href = "index.html";
     });
 }
 
