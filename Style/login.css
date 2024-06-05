@@ -69,6 +69,8 @@
 }
 
 
+
+
 /*--------------------- ICONES DO FORMULÁRIO DE LOGIN E CADASTRO ---------------------*/
 
 .mingcute--user-4-fill::after {
@@ -85,4 +87,12 @@
     height: 3em;
     vertical-align: -0.125em;
     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%237EF2B0' d='M12 17a2 2 0 0 1-2-2c0-1.11.89-2 2-2a2 2 0 0 1 2 2a2 2 0 0 1-2 2m6 3V10H6v10zm0-12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10c0-1.11.89-2 2-2h1V6a5 5 0 0 1 5-5a5 5 0 0 1 5 5v2zm-6-5a3 3 0 0 0-3 3v2h6V6a3 3 0 0 0-3-3'/%3E%3C/svg%3E");
+  }
+
+  .iconoir--eye::after {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: -0.125em;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%237EF2B0' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'%3E%3Cpath d='M3 13c3.6-8 14.4-8 18 0'/%3E%3Cpath d='M12 17a3 3 0 1 1 0-6a3 3 0 0 1 0 6'/%3E%3C/g%3E%3C/svg%3E");
   }

@@ -1,3 +1,12 @@
+function mostrarSenha(icone) {
+    var senhaInput = icone.previousElementSibling;
+    if (senhaInput.type === "password") {
+        senhaInput.type = "text";
+    } else {
+        senhaInput.type = "password";
+    }
+}
+
 function sucesso () {
     Swal.fire({
         title: "Usuário cadastrado com sucesso!",
@@ -12,4 +21,7 @@ document.getElementById('cadastro').addEventListener('submit', function(e) {
     e.preventDefault(); // Impede o envio do formulário
     sucesso(); // Ativa a função
 });
+
+
+
 

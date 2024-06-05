@@ -84,6 +84,18 @@ input:focus {
     margin-top: 3%;
 }
 
+.pass {
+    position: relative;
+}
+
+.pass i {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    color: var(--verde-principal);
+    font-size: 25px;
+}
+
 
 
 
