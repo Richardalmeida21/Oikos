@@ -245,7 +245,7 @@ input:focus {
     }
 
 
-    @media screen and (min-width : 475px) {
+    @media (max-height : 475px) {
         .container-logo img {
             width: 100px;
             height: 100px;
