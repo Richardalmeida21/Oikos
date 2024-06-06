@@ -245,6 +245,36 @@ input:focus {
     }
 
 
+    @media screen and (max-width : 483px) {
+        .container-logo img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .form-cadastro {
+            display: none;
+        }
+
+        .container-logo h1 {
+            display: none;
+        }
+
+        .container-form {
+            height: 50vh;
+        }
+
+        .btn-continuar {
+            font-size: 15px;
+            margin-bottom: 15%;
+            margin-top: 2%;
+        }
+
+        .form {
+            margin-top: 3%;
+        }
+    }
+
+
 
     /* ----------------- ICONS -------------*/
     
