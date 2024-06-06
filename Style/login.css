@@ -192,6 +192,7 @@ input:focus {
     main h2 {
         display: none;
     }
+    
 
     .container-logo img {
         width: 200px;
@@ -244,35 +245,6 @@ input:focus {
         padding-left: 10px;
     }
 
-
-    @media (max-height : 475px) {
-        .container-logo img {
-            width: 100px;
-            height: 100px;
-        }
-
-        .form-cadastro {
-            display: none;
-        }
-
-        .container-logo h1 {
-            display: none;
-        }
-
-        .container-form {
-            height: 51vh;
-        }
-
-        .btn-continuar {
-            font-size: 15px;
-            margin-bottom: 15%;
-            margin-top: 2%;
-        }
-
-        .form {
-            margin-top: 3%;
-        }
-    }
 
 
 
