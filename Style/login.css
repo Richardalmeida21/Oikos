@@ -2,6 +2,81 @@
 
 /* ------------------ LOGO E TEXTO INICIAL ----------------------*/
 
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--background);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7%;
+    margin-top: 3%;
+}
+
+
+.font {
+    font-size: 20px;
+}
+
+input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.734);
+    width: 300px;
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 3%;
+    font-size: 18px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn-continuar {
+    background-color: var(--verde-principal);
+    padding: 7px;
+    width: 200px;
+    border: 0;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+.pass {
+    position: relative;
+}
+
+.pass i {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    color: var(--verde-principal);
+    font-size: 25px;
+}
+
 .container-logo {
     display: flex;
     flex-direction: column;
@@ -95,4 +170,101 @@
     height: 30px;
     vertical-align: -0.125em;
     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%237EF2B0' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'%3E%3Cpath d='M3 13c3.6-8 14.4-8 18 0'/%3E%3Cpath d='M12 17a3 3 0 1 1 0-6a3 3 0 0 1 0 6'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+
+  /* --------------------------------------- Mobile -------------------------------*/
+
+  
+  @media screen and (max-width : 900px) 
+  {
+
+    .linha-decorativa {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    main h2 {
+        display: none;
+    }
+
+    .container-logo img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .container-logo h1 {
+        font-size: 30px;
+        margin-bottom: 5%;
+    }
+
+    .container-form {
+        justify-content: center;
+        width: 90%;
+        height: 45vh;
+    }
+
+    .form-cadastro {
+        margin-bottom: 5%;
+        font-size: 15px;
+    }
+
+    .form-geral {
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+    .form-email {
+        margin-top: 10%;
+    }
+
+    .btn-continuar {
+        margin-top:5%;
+        margin-bottom: 7%;
+        padding: 5px;
+        width: 170px;
+        font-size: 20px;
+    }
+
+    input {
+        width: 270px;
+        padding-top: 10px;
+        color: white;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+
+
+    /* ----------------- ICONS -------------*/
+    
+    .mingcute--user-4-fill::after {
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        vertical-align: -0.125em;
+        content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M24 0v24H0V0zM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z'/%3E%3Cpath fill='%237EF2B0' d='M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2M8.5 9.5a3.5 3.5 0 1 1 7 0a3.5 3.5 0 0 1-7 0m9.758 7.484A7.985 7.985 0 0 1 12 20a7.985 7.985 0 0 1-6.258-3.016C7.363 15.821 9.575 15 12 15s4.637.821 6.258 1.984'/%3E%3C/g%3E%3C/svg%3E");
+      }
+    
+      .mdi--password-outline::after {
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        vertical-align: -0.125em;
+        content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%237EF2B0' d='M12 17a2 2 0 0 1-2-2c0-1.11.89-2 2-2a2 2 0 0 1 2 2a2 2 0 0 1-2 2m6 3V10H6v10zm0-12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10c0-1.11.89-2 2-2h1V6a5 5 0 0 1 5-5a5 5 0 0 1 5 5v2zm-6-5a3 3 0 0 0-3 3v2h6V6a3 3 0 0 0-3-3'/%3E%3C/svg%3E");
+      }
+    
+      .iconoir--eye::after {
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        vertical-align: -0.125em;
+        content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%237EF2B0' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'%3E%3Cpath d='M3 13c3.6-8 14.4-8 18 0'/%3E%3Cpath d='M12 17a3 3 0 1 1 0-6a3 3 0 0 1 0 6'/%3E%3C/g%3E%3C/svg%3E");
+      }
+
+
   }
