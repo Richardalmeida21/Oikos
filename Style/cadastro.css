@@ -162,17 +162,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background: transparent;
 }
 
-input[type="date"]::-webkit-inner-spin-button {
-    display: none;
-}
-
-input[type="date"]::-webkit-clear-button {
-    display: none;
-}
-
-input[type="date"]::-webkit-day-picker-marker {
-    background: #f9f9f9;
-}
 
 .btn-cadastro {
     background-color: var(--verde-principal);
@@ -240,7 +229,7 @@ input[type="date"]::-webkit-day-picker-marker {
     }
 
     .container-cadastro {
-        width: 80%;
+        width: 70%;
         height: 100vh;
         display: flex;
         align-items: center;
@@ -250,6 +239,7 @@ input[type="date"]::-webkit-day-picker-marker {
 
     .container-form {
         height: 90vh;
+        padding: 0 2em;
     }
 
     .form {
@@ -261,5 +251,6 @@ input[type="date"]::-webkit-day-picker-marker {
         width: 350px;
     }
 
+   
 
   }
