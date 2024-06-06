@@ -245,7 +245,7 @@ input:focus {
     }
 
 
-    @media screen and (max-width : 483px) {
+    @media screen and (min-width : 475px) {
         .container-logo img {
             width: 100px;
             height: 100px;
@@ -260,7 +260,7 @@ input:focus {
         }
 
         .container-form {
-            height: 50vh;
+            height: 51vh;
         }
 
         .btn-continuar {
