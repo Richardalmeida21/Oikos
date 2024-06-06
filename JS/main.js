@@ -23,5 +23,13 @@ document.getElementById('cadastro').addEventListener('submit', function(e) {
 });
 
 
+window.addEventListener('touchmove', function(event) {
+    if(document.activeElement.tagName === 'INPUT' ||
+       document.activeElement.tagName === 'TEXTAREA') {
+      event.preventDefault();
+    }
+  });
+  
+
 
 
