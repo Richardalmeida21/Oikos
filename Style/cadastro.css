@@ -66,10 +66,12 @@ input::placeholder {
     left: 3%;
     font-size: 18px;
 }
-input[type='date'] {
-    text-align: ;
-}
 
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
 
 
 
