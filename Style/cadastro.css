@@ -151,6 +151,12 @@ input::placeholder {
     height: 15px;
 }
 
+input[type = "date"] {
+    color: white;
+    display: flex;
+    background-color: var(--background-form);
+}
+
 
 
 .btn-cadastro {
