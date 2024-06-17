@@ -23,9 +23,10 @@ document.getElementById('cadastro').addEventListener('submit', function(e) {
 });
 
 
-function mudarPlaceholder(input) {
-    input.placeholder = 'Selecione a data de nascimento';
+function abrirCalendario() {
+    document.getElementById('date').click();
 }
+
 
 
 
