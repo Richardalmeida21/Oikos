@@ -73,6 +73,12 @@ input[type="date"] {
     padding-left: 10px;
 }
 
+input[type="date"]::placeholder {
+    color: black;
+    padding: 0;
+    left: 0;
+}
+
 
 
 .btn-continuar {
@@ -256,6 +262,8 @@ input[type="date"] {
         color: black;
         display: inline-table;
         background-color: white;
+        text-align: left;
+        display: flex;
     }
 
 
