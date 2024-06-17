@@ -66,11 +66,8 @@ input::placeholder {
     font-size: 18px;
 }
 
-input[type="date"] {
-    background-color:transparent;
-    color: red;
-    padding: 0;
-    padding-left: 10px;
+#exampleInputEmail1 {
+    width: 300px;
 }
 
 
