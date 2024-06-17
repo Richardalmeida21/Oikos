@@ -23,11 +23,6 @@ document.getElementById('cadastro').addEventListener('submit', function(e) {
 });
 
 
-function abrirCalendario() {
-    document.getElementById('date').click();
-}
-
-
 
 
 
