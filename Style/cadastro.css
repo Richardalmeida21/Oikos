@@ -66,9 +66,7 @@ input::placeholder {
     font-size: 18px;
 }
 
-input:focus {
-    outline: none;
-}
+
 
 .btn-continuar {
     color: black;
@@ -159,7 +157,7 @@ input[type="date"] {
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
-    background: transparent;
+    display: none;
 }
 
 
@@ -229,7 +227,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
 
     .container-cadastro {
-        width: 70%;
+        width: 100%;
         height: 100vh;
         display: flex;
         align-items: center;
@@ -240,6 +238,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .container-form {
         height: 90vh;
         padding: 0 2em;
+        width: 90%;
     }
 
     .form {
@@ -248,7 +247,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
 
     input {
-        width: 350px;
+        width: 300px;
     }
 
    
