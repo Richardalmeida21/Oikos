@@ -162,6 +162,7 @@ input[type="date"] {
 
 .btn-cadastro {
     background-color: var(--verde-principal);
+    color: black;
     padding: 5px;
     width: 200px;
     border: 0;
@@ -175,10 +176,7 @@ input[type="date"] {
     padding: 0px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
+
 
 
 
