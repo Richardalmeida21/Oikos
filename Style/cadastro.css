@@ -66,6 +66,13 @@ input::placeholder {
     font-size: 18px;
 }
 
+input[type="date"] {
+    background-color:transparent;
+    color: white;
+    padding: 0;
+    padding-left: 10px;
+}
+
 
 
 .btn-continuar {
@@ -149,12 +156,6 @@ input::placeholder {
 .input-termos {
     width: 15px;
     height: 15px;
-}
-
-input[type = "date"] {
-    color: white;
-    display: flex;
-    background-color: var(--background-form);
 }
 
 
