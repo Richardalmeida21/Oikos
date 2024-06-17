@@ -23,6 +23,11 @@ document.getElementById('cadastro').addEventListener('submit', function(e) {
 });
 
 
+function openDatePicker() {
+    document.getElementById('date').type = 'date';
+}
+
+
 
 
 
