@@ -61,23 +61,18 @@ input {
 input::placeholder {
     
     bottom: 0;
-    color: white;
+    color:white;
     left: 3%;
     font-size: 18px;
 }
 
 input[type="date"] {
     background-color:transparent;
-    color: white;
+    color: red;
     padding: 0;
     padding-left: 10px;
 }
 
-input[type="date"]::placeholder {
-    color: black;
-    padding: 0;
-    left: 0;
-}
 
 
 
@@ -258,13 +253,6 @@ input[type="date"]::placeholder {
         width: 300px;
     }
 
-    input[type = "date"] {
-        color: black;
-        display: inline-table;
-        background-color: white;
-        text-align: left;
-        display: flex;
-    }
 
 
 
