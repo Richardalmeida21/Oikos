@@ -23,8 +23,8 @@ document.getElementById('cadastro').addEventListener('submit', function(e) {
 });
 
 
-function openDatePicker() {
-    document.getElementById('date').type = 'date';
+function mudarPlaceholder(input) {
+    input.placeholder = 'Selecione a data de nascimento';
 }
 
 

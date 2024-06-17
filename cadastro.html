@@ -35,7 +35,8 @@
                     <div class=" form-geral">
                         <label for="date"></label>
                         <span class="akar-icons--calendar"></span>
-                        <input type="date" id="date" placeholder="DD/MM/AAAA" onfocus="this.type='date'" ">
+                        <input type="text" id="meuInput" placeholder="Selecione uma data" onfocus="this.type='date'" onblur="if(this.value==''){this.type='text'}">
+
                     </div>
                     <div class="form-geral">
                         <label for="email"></label>
