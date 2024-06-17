@@ -224,6 +224,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   @media screen and (max-width : 900px) {
 
+    h2 {
+        margin-top: 3%;
+    }
+
     .container-logo {
         display: none;
     }
