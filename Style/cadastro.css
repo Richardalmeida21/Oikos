@@ -65,6 +65,13 @@ input::placeholder {
     left: 3%;
     font-size: 18px;
 }
+input[type='date'] {
+    bottom: 0;
+    color:white;
+    left: 3%;
+    font-size: 18px;
+    padding-top: 10px;
+}
 
 
 
